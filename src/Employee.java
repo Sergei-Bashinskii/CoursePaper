@@ -55,6 +55,6 @@ public class Employee {
     }
 
     public String toString() {
-        return "Ф.И.О: " + this.fullName + "\nid: " + this.id + "\nОтдел: " + this.department + "\nЗарплата: " + this.salary;
+        return "Ф.И.О: " + this.fullName + "\nid: " + this.id + "\nОтдел: " + this.department + "\nЗарплата: " + String.format("%.2f", this.salary);
     }
 }
